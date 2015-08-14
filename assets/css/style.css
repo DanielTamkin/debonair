@@ -18,6 +18,9 @@
 		display:inline-block;
 		font-family: 'Lato';
 	}
+	#site-nav .wrapper{
+		height:auto;
+	}
 	#site-nav section{
 		display:inline-block;
 	}
@@ -30,6 +33,7 @@
 		font-family:'Didactic';
 	}
 	#site-nav section.nav ul{
+		display:block;
 		text-align:left;
 	}
 	#site-nav section.nav ul li{
@@ -78,4 +82,27 @@
 	#site-footer li.right{
 		float:right;
 		text-align:right;
+	}
+/*> loop*/
+	#loop{
+		margin:2em auto;
+	}
+	#loop article{
+		margin:4em 0;
+		font-family: 'Didactic';
+		line-height:1.6;
+	}
+	#loop article header{
+		margin-bottom:2em;
+	}
+	#loop article header h2{
+		font-size:2.6em;
+		line-height:1;
+	}
+	#loop article header p{
+
+	}
+	#loop article section.excerpt{
+		font-size:1.2em;
+		line-height:1.9;
 	}

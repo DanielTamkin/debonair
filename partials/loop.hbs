@@ -1,5 +1,21 @@
 {{!loop template}}
-{{#foreach posts}}
+<section id="loop">
+  {{#foreach posts}}
+    <article>
+      <aside>
 
+      </aside>
+      <section class="body">
+        <header>
+          <a href="{{url}}"><h2>{{title}}</h2></a>
+          <p><date>{{date format="MMMM DD, YYYY"}}</date> - <a href="{{author.url}}">{{author.name}}</a>
 
-{{/foreach}}
+          </p>
+        </header>
+        <section class="excerpt">
+          <p>{{excerpt words="20"}}</p>
+        </section>
+      </section>
+    </article>
+  {{/foreach}}
+</section>
