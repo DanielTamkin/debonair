@@ -4,11 +4,20 @@
 		font-family:'Raleway',Serif;
 	}
 	a:hover{
-		text-decoration:underline;
+		color:#d03838;
+		-webkit-transition: all 100ms ease-in-out;
+		-moz-transition: all 100ms ease-in-out;
+		-ms-transition: all 100ms ease-in-out;
+		-o-transition: all 100ms ease-in-out;
+		transition: all 100ms ease-in-out;
 	}
 	p a:hover{
-		color:#000;
-		text-decoration:underline;
+		color:#d03838;
+		-webkit-transition: all 100ms ease-in-out;
+		-moz-transition: all 100ms ease-in-out;
+		-ms-transition: all 100ms ease-in-out;
+		-o-transition: all 100ms ease-in-out;
+		transition: all 100ms ease-in-out;
 	}
 /*> navigation*/
 	#site-nav{
