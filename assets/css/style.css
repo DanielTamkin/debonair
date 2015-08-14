@@ -96,7 +96,7 @@
 	}
 /*> loop*/
 	#loop{
-		margin:2em auto;
+		margin:3.1em auto;
 	}
 	#loop article{
 		margin:4em 0;
@@ -111,7 +111,7 @@
 		line-height:1;
 	}
 	#loop article header p{
-
+		opacity:0.6;
 	}
 	#loop article section.excerpt{
 		font-size:1.2em;
