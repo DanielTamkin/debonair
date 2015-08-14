@@ -23,3 +23,12 @@
 	#site-nav section.nav{
 		float:right;
 	}
+	#site-nav section.nav ul{
+		text-align:left;
+	}
+	#site-nav section.nav ul li{
+		padding:0.5em 0.2em;
+		marign:0.2em 0;
+		display:inline-block;
+		
+	}
