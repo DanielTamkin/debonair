@@ -10,3 +10,16 @@
 		color:#000;
 		text-decoration:underline;
 	}
+/*> navigation*/
+	#site-nav{
+		padding:1em;
+	}
+	#site-nav section{
+		display:inline-block;
+	}
+	#site-nav section.title{
+		float:left;
+	}
+	#site-nav section.nav{
+		float:right;
+	}
