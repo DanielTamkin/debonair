@@ -25,6 +25,7 @@
 	}
 	#site-nav section.nav{
 		float:right;
+		font-family:'Didactic';
 	}
 	#site-nav section.nav ul{
 		text-align:left;
