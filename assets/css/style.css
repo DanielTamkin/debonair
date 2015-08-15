@@ -117,3 +117,14 @@
 		font-size:1.2em;
 		line-height:1.9;
 	}
+/*> post*/
+	#post article{
+		margin:1em 0;
+	}
+	#post header.post{
+		margin:1em 0;
+		margin-bottom:2.1em;
+		max-height:650px;
+		width:100%;
+		font-family:'Didactic';
+	}
