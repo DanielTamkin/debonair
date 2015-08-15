@@ -143,5 +143,6 @@
 		margin-bottom:2.1em;
 		max-height:650px;
 		width:100%;
-		font-family:'Didactic';
+		display:inline-block;
+		font-family:'Cardo-Bold';
 	}
