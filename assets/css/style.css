@@ -139,10 +139,13 @@
 		margin:1em 0;
 	}
 	#post header.post{
-		margin:1em 0;
-		margin-bottom:2.1em;
+		margin:4.1em 0;
 		max-height:650px;
 		width:100%;
 		display:inline-block;
 		font-family:'Cardo-Bold';
+	}
+	#post section.content{
+		line-height: 1.9;
+		font-family:'Lora-Regular';
 	}
