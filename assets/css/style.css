@@ -148,6 +148,7 @@
 	#post section.content{
 		line-height: 1.9;
 		font-family:'Lora';
+		font-size:1.4em;
 	}
 	#post section.content p{
 		margin:1em 0;
