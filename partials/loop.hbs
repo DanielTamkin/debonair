@@ -7,11 +7,11 @@
       </aside>
       <section class="body">
         <header>
-          <a href="{{url}}"><h2>{{title}}</h2></a>
+          <a href="{{url absolute="true"}}"><h2>{{title}}</h2></a>
           <p><span>{{date format="MMMM DD, YYYY"}}</span> - <a href="{{author.url}}">{{author.name}}</a></p>
         </header>
         <section class="excerpt">
-          <p>{{excerpt words="30"}}</p>
+          <p>{{excerpt words="30"}}...<a href="{{url absolute="true"}}">read this</a></p>
         </section>
       </section>
     </article>

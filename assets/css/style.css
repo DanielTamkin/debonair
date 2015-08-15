@@ -100,9 +100,10 @@
 		text-align:center;
 	}
 	#loop article{
-		margin:2em 1%;
+		margin:4em 1.1%;
+		margin-bottom:2em;
 		display:inline-block;
-		position:relative;
+		vertical-align:top;
 		width:30%;
 		font-family: 'Didactic';
 		line-height:1.6;
@@ -113,7 +114,7 @@
 	}
 	#loop article header h2{
 		font-size:2.6em;
-		min-height:100px;
+		min-height:60px;
 		max-height:160px;
 		width:100%;
 		display:inline-block;
@@ -125,6 +126,7 @@
 	#loop article section.excerpt{
 		font-size:1.2em;
 		line-height:1.9;
+		display:inline-block;
 	}
 /*> post*/
 	#post article{
