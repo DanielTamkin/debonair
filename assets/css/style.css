@@ -143,9 +143,12 @@
 		max-height:650px;
 		width:100%;
 		display:inline-block;
-		font-family:'Cardo-Bold';
+		font-family:'Lora-Bold';
 	}
 	#post section.content{
 		line-height: 1.9;
-		font-family:'Lora-Regular';
+		font-family:'Lora';
+	}
+	#post section.content p{
+		margin:1em 0;
 	}

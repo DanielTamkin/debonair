@@ -1,5 +1,6 @@
 {{!loop template}}
 <section id="loop" class="Container-Large">
+  {{#if posts}}
   {{#foreach posts}}
     <article>
       <aside>
@@ -16,6 +17,9 @@
       </section>
     </article>
   {{/foreach}}
+  {{else}}
+    No posts!
+  {{/if}}
   <div style="clear:both;"></div>
 </section>
 <script>
