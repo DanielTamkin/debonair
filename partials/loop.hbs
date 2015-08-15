@@ -1,5 +1,5 @@
 {{!loop template}}
-<section id="loop">
+<section id="loop" class="Container-Large">
   {{#foreach posts}}
     <article>
       <aside>
@@ -16,4 +16,8 @@
       </section>
     </article>
   {{/foreach}}
+  <div style="clear:both;"></div>
 </section>
+<script>
+  jQuery("#loop header h2").fitText();
+</script>

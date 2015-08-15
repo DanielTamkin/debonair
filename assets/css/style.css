@@ -97,17 +97,26 @@
 /*> loop*/
 	#loop{
 		margin:3.1em auto;
+		text-align:center;
 	}
 	#loop article{
-		margin:4em 0;
+		margin:2em 1%;
+		display:inline-block;
+		position:relative;
+		width:30%;
 		font-family: 'Didactic';
 		line-height:1.6;
+		text-align:left;
 	}
 	#loop article header{
 		margin-bottom:2em;
 	}
 	#loop article header h2{
 		font-size:2.6em;
+		min-height:100px;
+		max-height:160px;
+		width:100%;
+		display:inline-block;
 		line-height:1;
 	}
 	#loop article header p{
