@@ -153,3 +153,10 @@
 	#post section.content p{
 		margin:1.1em 0;
 	}
+	#post section.author{
+		
+	}
+	#post section.disqus{
+		margin:1em 0;
+		margin-bottom:2em;
+	}
