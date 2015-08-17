@@ -69,31 +69,6 @@
 		-o-transition: all 100ms ease-in-out;
 		transition: all 100ms ease-in-out;
 	}
-/*> footer*/
-	#site-footer{
-		margin-top:1em;
-		padding:1.6em;
-		box-sizing:border-box;
-		width:100%;
-		display:inline-block;
-		font-family:'Raleway';
-		font-size:90%;
-	}
-	#site-footer a{
-		font-family:'Lato-Black';
-		font-size:1.2em;
-	}
-	#site-footer li{
-		display:inline-block;
-	}
-	#site-footer li.left{
-		float:left;
-		text-align:right;
-	}
-	#site-footer li.right{
-		float:right;
-		text-align:right;
-	}
 /*> author*/
 	#author{
 		margin:3em 0;
@@ -211,4 +186,32 @@
 	#post section.disqus{
 		margin:1em 0;
 		margin-bottom:2em;
+	}
+/*> footer*/
+	#site-footer{
+		margin:1em 0;
+		width:100%;
+		display:inline-block;
+	}
+	#site-footer .wrapper{
+		padding:1.6em;
+		box-sizing:border-box;
+
+		font-family:'Raleway';
+		font-size:90%;
+	}
+	#site-footer a{
+		font-family:'Lato-Black';
+		font-size:1.2em;
+	}
+	#site-footer li{
+		display:inline-block;
+	}
+	#site-footer li.left{
+		float:left;
+		text-align:right;
+	}
+	#site-footer li.right{
+		float:right;
+		text-align:right;
 	}
