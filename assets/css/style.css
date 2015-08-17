@@ -153,8 +153,47 @@
 	#post section.content p{
 		margin:1.1em 0;
 	}
+	#post section.social{
+		margin:1.9em 0;
+		text-align:center;
+		font-family: 'Socicon';
+		font-size:1.4em;
+	}
+	#post section.social span{
+		margin:0 1em;
+		opacity:0.4;
+	}
 	#post section.author{
-		
+		margin:6em 0;
+		padding:1em;
+		box-sizing:border-box;
+		vertical-align:middle;
+		background:#0fb1e4;
+		min-height:200px;
+		display:inline-block;
+	}
+	#post section.author .image{
+		width:30%;
+		float:left;
+		overflow:hidden;
+	}
+	#post section.author .image img{
+		width:200px;
+		height:200px;
+	}
+	#post section.author .body{
+		float:right;
+		width:65%;
+
+		font-family:'Lato';
+	}
+	#post section.author .body h1{
+		margin-bottom:0.1em;
+		font-family:'Lato-Bold';
+	}
+	#post section.author .body p{
+		margin-left:2px;
+		line-height:1.4;
 	}
 	#post section.disqus{
 		margin:1em 0;

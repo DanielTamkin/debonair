@@ -9,10 +9,20 @@
       {{{content}}}
     </section>
     <section class="social">
-
+        <span class="twitter">a</span>
+        <span class="facebook">b</span>
+        <span class="pinterest">d</span>
     </section>
     <section class="author">
-
+      {{#author}}
+        <section class="image">
+          <img src="{{image}}">
+        </section>
+        <section class="body">
+          <h1>{{name}}</h1>
+          <p>{{bio}}</p>
+        </section>
+      {{/author}}
     </section>
     <section class="disqus">
       <div id="disqus_thread"></div>

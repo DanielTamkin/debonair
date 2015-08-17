@@ -11,7 +11,7 @@ html, body{
 }
 body{/*font-family: 'Montserrat', sans-serif;*/}
 /*Basics*/
-    .Theme-Original{background:#dedede;}
+  .Theme-Original{background:#dedede;}
 	.Theme-Dark{background:#333;}
 		.Site-Container{margin:0 auto;width:85%;max-width:1260px;/*border-left:1px solid #111;border-right:1px solid #111;*/}
 		.Container-Large{margin:0 auto;width:85%;max-width:1260px;/*border-left:1px solid #111;border-right:1px solid #111;*/}
@@ -38,6 +38,11 @@ body{/*font-family: 'Montserrat', sans-serif;*/}
 		@media all and (max-width: 600px) {
 			.ghostb{padding:6px 26px;}
 		}
+	/*Social icons*/
+	section.social{font-family: 'Socicon';}
+	section.social .twitter{color:#55acee;}
+	section.social .facebook{color:#3b5998;}
+	section.social .pinterest{color:#bd081c;}
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
