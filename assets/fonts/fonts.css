@@ -139,7 +139,7 @@
 	font-style: normal;
 }
 
-/*@font-face {
+@font-face {
 	font-family: 'Raleway';
 	src: url('Raleway.eot');
 	src: url('Raleway.eot?#iefix') format('embedded-opentype'),
@@ -149,7 +149,7 @@
 	font-style: normal;
 }
 
-@font-face {
+/*@font-face {
 	font-family: 'Raleway-Bold';
 	src: url('Raleway-Bold.eot');
 	src: url('Raleway-Bold.eot?#iefix') format('embedded-opentype'),

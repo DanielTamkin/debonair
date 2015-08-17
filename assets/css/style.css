@@ -94,6 +94,25 @@
 		float:right;
 		text-align:right;
 	}
+/*> author*/
+	#author{
+		margin:3em 0;
+		width:100%;
+	}
+	#author header.author{
+		text-align:center;
+	}
+	#author header.author h3{
+		font-size:1.6em;
+		opacity:0.6;
+	}
+	#author header.author p{
+		margin:0.5em 0;
+		line-height:1.5;
+		font-family:'Lato-Bold';
+		font-size:2.6em;
+	}
+	#author header.author
 /*> loop*/
 	#loop{
 		margin:3.1em auto;
