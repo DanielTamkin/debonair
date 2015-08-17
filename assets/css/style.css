@@ -75,7 +75,8 @@
 		width:100%;
 	}
 	#author header.author{
-		background:#2aabb8;
+		margin:3em 0;
+		/*background:#2aabb8;*/
 		text-align:center;
 	}
 	#author header.author h3{
