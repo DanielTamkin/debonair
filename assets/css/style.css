@@ -153,6 +153,13 @@
 	#post section.content p{
 		margin:1.1em 0;
 	}
+	#post footer hr{
+		margin:0.1em 0;
+		height:3px;
+		border:none;
+		opacity:0.6;
+		border-bottom:1px solid #273a34;
+	}
 	#post section.social{
 		margin:1.9em 0;
 		text-align:center;
@@ -164,35 +171,23 @@
 		opacity:0.4;
 	}
 	#post section.author{
-		margin:6em 0;
-		padding:1em;
-		box-sizing:border-box;
-		vertical-align:middle;
-		background:#0fb1e4;
-		min-height:200px;
-		display:inline-block;
-	}
-	#post section.author .image{
-		width:30%;
-		float:left;
-		overflow:hidden;
-	}
-	#post section.author .image img{
-		width:200px;
-		height:200px;
-	}
-	#post section.author .body{
-		float:right;
-		width:65%;
-
+	  margin:2.4em 0;
+	  padding:1em;
+	  box-sizing:border-box;
+		text-align:left;
 		font-family:'Lato';
+		font-size:80%;
 	}
-	#post section.author .body h1{
-		margin-bottom:0.1em;
+	#post section.author h2{
+		padding-bottom:0.6em;
+		font-size:0.8em;
+		opacity:0.6;
+	}
+	#post section.author h1{
+		margin:0.2em 0;
 		font-family:'Lato-Bold';
 	}
-	#post section.author .body p{
-		margin-left:2px;
+	#post section.author p{
 		line-height:1.4;
 	}
 	#post section.disqus{

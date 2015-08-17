@@ -1,0 +1,24 @@
+#post section.author{
+  margin:2.4em 0;
+  padding:0.6em;
+  box-sizing:border-box;
+  text-align:center;
+  /*background:#38dfa6;*/
+}
+#post section.author section{
+  width:49%;
+  display:inline-block;
+  overflow:hidden;
+  max-height:260px;
+  vertical-align:middle;
+
+}
+#post section.author section.body{
+  text-align:left;
+}
+#post section.author img{
+  height:240px;
+  width:auto;
+  vertical-align:middle;
+  display:inline-block;
+}
