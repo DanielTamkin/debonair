@@ -71,10 +71,11 @@
 	}
 /*> author*/
 	#author{
-		margin:3em 0;
+		margin:0;
 		width:100%;
 	}
 	#author header.author{
+		background:#2aabb8;
 		text-align:center;
 	}
 	#author header.author h3{
@@ -85,9 +86,17 @@
 		margin:0.5em 0;
 		line-height:1.5;
 		font-family:'Lato-Bold';
-		font-size:2.6em;
+		font-size:2.9em;
 	}
-	#author header.author
+	#author header.author ul{
+		text-align:center;
+		opacity:0.6;
+	}
+	#author header.author ul li{
+		margin:9px 3px;
+		padding:4px;
+		display:inline-block;
+	}
 /*> loop*/
 	#loop{
 		margin:3.1em auto;

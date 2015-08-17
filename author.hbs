@@ -1,17 +1,19 @@
 {{!< default}}
 {{! author template}}
-{{#author}}
 <section id="author">
-  <header class="author Container-Medium">
-    <h3>{{name}}</h3>
-    <p>{{bio}}</p>
-    <ul>
-      <li>{{website}}</li>
-      <li>{{location}}</li>
-    </ul>
-  </header>
+  {{#author}}
+    <header class="author">
+      <div class="Container-Medium wrapper">
+        <h3>{{name}}</h3>
+        <p>{{bio}}</p>
+        <ul>
+          <li>{{website}}</li>
+          <li>{{location}}</li>
+        </ul>
+      </div>
+    </header>
+  {{/author}}
   <section class="wrapper Container-Large">
-    {{!> "loop"}}
+    {{> "loop"}}
   </section>
 </author>
-{{/author}}
