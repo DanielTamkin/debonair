@@ -103,6 +103,23 @@
 		margin:3.1em auto;
 		text-align:center;
 	}
+	#loop header.author{
+		margin:1em auto;
+		margin-bottom:2em;
+		text-align:left;
+	}
+	#loop header.author hr{
+		margin:0.1em 0;
+		height:3px;
+		border:none;
+		opacity:0.6;
+		border-bottom:1px solid #273a34;
+	}
+	#loop header.author h2{
+		padding-bottom:0.6em;
+		font-size:1.1em;
+		opacity:0.6;
+	}
 	#loop article{
 		margin:4em 1.1%;
 		margin-bottom:2em;

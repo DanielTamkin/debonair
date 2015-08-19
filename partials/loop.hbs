@@ -1,5 +1,11 @@
 {{!loop template}}
 <section id="loop" class="Container-Large">
+  {{#if author}}
+    <header class="author Container-Medium">
+      <h2>posts: {{pagination.total}}</h2>
+      <hr/>
+    </header>
+  {{/if}}
   {{#if posts}}
   {{#foreach posts}}
     <article>
@@ -27,5 +33,5 @@
   <div style="clear:both;"></div>
 </section>
 <script>
-  jQuery("#loop header h2").fitText();
+  jQuery("#loop section.body header h2").fitText();
 </script>
