@@ -9,7 +9,11 @@
       <section class="body">
         <header>
           <a href="{{url absolute="true"}}"><h2>{{title}}</h2></a>
-          <p><span>{{date format="MMMM DD, YYYY"}}</span> - <a href="{{author.url}}">{{author.name}}</a></p>
+          <p><span>{{date format="MMMM DD, YYYY"}}</span> -
+          {{#author}}
+            <a href="{{url}}">{{name}}</a>
+          {{/author}}
+          </p>
         </header>
         <section class="excerpt">
           <p>{{excerpt words="30"}}...<a href="{{url absolute="true"}}">read this</a></p>

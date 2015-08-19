@@ -71,11 +71,11 @@
 	}
 /*> author*/
 	#author{
-		margin:0;
+		margin:3em 0;
 		width:100%;
 	}
 	#author header.author{
-		margin:3em 0;
+		margin:2em 0;
 		/*background:#2aabb8;*/
 		text-align:center;
 	}
