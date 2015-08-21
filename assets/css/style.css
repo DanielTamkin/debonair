@@ -98,6 +98,10 @@
 		padding:4px;
 		display:inline-block;
 	}
+/*> pagination*/
+	#pagination{
+		width:100%;
+	}
 /*> loop*/
 	#loop{
 		margin:3.1em auto;
