@@ -20,9 +20,12 @@
             <a href="{{url}}">{{name}}</a>
           {{/author}}
           </p>
+          <p>
+            {{tags separator=" & "}}
+          </p>
         </header>
         <section class="excerpt">
-          <p>{{excerpt words="30"}}...<a href="{{url absolute="true"}}">read this</a></p>
+          <p>{{excerpt words="30"}}...<a href="{{url absolute="true"}}"><span>read this</span></a></p>
         </section>
       </section>
     </article>
@@ -30,6 +33,7 @@
   {{else}}
     No posts!
   {{/if}}
+  {{pagination}}
   <div style="clear:both;"></div>
 </section>
 <script>

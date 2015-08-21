@@ -149,6 +149,9 @@
 		line-height:1.9;
 		display:inline-block;
 	}
+	#loop article section.excerpt span{
+		opacity:0.6;
+	}
 	#loop article section.social{
 
 	}
