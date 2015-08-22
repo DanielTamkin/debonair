@@ -21,5 +21,3 @@ if you see a bug or have a great idea on how to improve Debonair, Dont hesitate 
  | [Socicon](https://www.google.com/fonts#UsePlace:use/Collection:Lato)  | Social icons |
  | [Lato](https://www.google.com/fonts#UsePlace:use/Collection:Lato)  | For important things like the nav, author description & footer |
  | [Cardo](https://www.google.com/fonts#UsePlace:use/Collection:Lato)  | The big headers for the posts |
-
- #### OK i get it theres alot of fonts all doing the same job that'll be fixed before Debonair goes live :smile:

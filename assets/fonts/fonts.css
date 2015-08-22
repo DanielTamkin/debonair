@@ -23,7 +23,7 @@
 	font-style: normal;
 }
 
-
+/*Remove this soon*/
 @font-face {
 	font-family: 'Lora';
 	src: url('Lora.eot');
@@ -59,7 +59,7 @@
 		url('Lora-BoldItalic.ttf')  format('truetype'),
 		url('Lora-BoldItalic.svg#Lora-BoldItalic') format('svg');
 }
-
+/*Keep this*/
 @font-face {
 	font-family: 'Cardo';
 	src: url('Cardo-Regular.eot');
@@ -139,15 +139,7 @@
 	font-style: normal;
 }
 
-@font-face {
-	font-family: 'Raleway';
-	src: url('Raleway.eot');
-	src: url('Raleway.eot?#iefix') format('embedded-opentype'),
-		url('Raleway.woff') format('woff'),
-		url('Raleway.ttf')  format('truetype');
-	font-weight: normal;
-	font-style: normal;
-}
+
 
 /*@font-face {
 	font-family: 'Raleway-Bold';
