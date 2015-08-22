@@ -17,10 +17,9 @@ if you see a bug or have a great idea on how to improve Debonair, Dont hesitate 
  ---
  | Fonts  | Whats it's use? |
  | ------------- |------------- |
- | [Didactic](https://www.google.com/fonts#UsePlace:use/Collection:Lato)  | Just an alternative to Lora |
- | [Socicon](https://www.google.com/fonts#UsePlace:use/Collection:Lato)  | Full of useful logos  |
- | [Lora](https://www.google.com/fonts#UsePlace:use/Collection:Raleway)  | A nice readable |
- | [Cardo](https://www.google.com/fonts#UsePlace:use/Collection:Raleway)  |
- | [Ralway](https://www.google.com/fonts#UsePlace:use/Collection:Raleway)  | default `body` font-family |
+ | [Didactic](https://www.google.com/fonts#UsePlace:use/Collection:Didactic)  | Standard `body` font |
+ | [Socicon](https://www.google.com/fonts#UsePlace:use/Collection:Lato)  | Social icons |
+ | [Lato](https://www.google.com/fonts#UsePlace:use/Collection:Lato)  | For important things like the nav, author description & footer |
+ | [Cardo](https://www.google.com/fonts#UsePlace:use/Collection:Lato)  | The big headers for the posts |
 
  #### OK i get it theres alot of fonts all doing the same job that'll be fixed before Debonair goes live :smile:
