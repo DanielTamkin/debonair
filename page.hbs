@@ -1,2 +1,32 @@
 {{!< default}}
 {{! post template}}
+{{#post}}
+  <article id="post" class="Container-Small">
+    <header class="post">
+      <h1>{{title}}</h1>
+    </header>
+    <section class="content">
+      {{{content}}}
+    </section>
+    <footer>
+      <section class="social">
+          <span class="twitter">a</span>
+          <span class="facebook">b</span>
+          <span class="pinterest">d</span>
+      </section>
+      <section class="author">
+        {{#author}}
+          <h2>author:</h2>
+          <hr/>
+          <section class="body">
+            <a href="{{url absolute="true"}}"><h1>{{name}}</h1></a>
+            <p>{{bio}}</p>
+          </section>
+        {{/author}}
+      </section>
+    </footer>
+  </article>
+{{/post}}
+<script>
+  jQuery("#post header.post h1").fitText(0.51);
+</script>
