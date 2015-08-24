@@ -20,8 +20,8 @@
             <a href="{{url}}">{{name}}</a>
           {{/author}}
           </p>
-          <p>
-            {{tags separator=" & "}}
+          <p class="tagged">
+            {{tags separator=", "}}
           </p>
         </header>
         <section class="excerpt">
@@ -33,8 +33,9 @@
   {{else}}
     No posts!
   {{/if}}
-  {{pagination}}
   <div style="clear:both;"></div>
+  {{pagination}}
+
 </section>
 <script>
   jQuery("#loop section.body header h2").fitText();

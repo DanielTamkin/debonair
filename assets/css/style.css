@@ -114,6 +114,13 @@
 		padding:4px;
 		display:inline-block;
 	}
+/*> description*/
+	#site-description{
+		margin:1em auto;
+		line-height:1.5;
+		font-family:'Lato-Bold';
+		font-size:2.9em;
+	}
 /*> pagination*/
 	#pagination{
 		/*background:rgb(40, 119, 166);*/
@@ -175,6 +182,9 @@
 	}
 	#loop article header p{
 		opacity:0.6;
+	}
+	#loop article header p.tagged{
+		color:#cf3333;
 	}
 	#loop article section.excerpt{
 		font-size:1.2em;
