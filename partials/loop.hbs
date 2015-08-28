@@ -5,13 +5,16 @@
       <h2>posts: {{pagination.total}}</h2>
       <hr/>
     </header>
+  {{else}}
+    {{#is "home"}}
+      <header class="home Container-Medium">
+        <h2>{{{@blog.description}}}</h2>
+      </header>
+    {{/is}}
   {{/if}}
   {{#if posts}}
   {{#foreach posts}}
     <article>
-      <aside>
-
-      </aside>
       <section class="body">
         <header>
           <a href="{{url absolute="true"}}"><h2>{{title}}</h2></a>

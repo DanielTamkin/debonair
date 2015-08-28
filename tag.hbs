@@ -1,3 +1,13 @@
 {{!< default}}
 {{! tag template}}
+<section id="tag">
+  {{#tag}}
+    <header class="tag">
+      <div class="Container-Medium">
+        <h3>tagged '<span>{{name}}</span>'</h3>
+        <p>{{description}}</p>
+      </div>
+    </header>
+  {{/tag}}
+</section>
 {{> "loop"}}

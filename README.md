@@ -12,6 +12,18 @@ if you see a bug or have a great idea on how to improve Debonair, Dont hesitate 
  3. navigate to your `settings/general` panel.
  4. Change your Theme setting to `Debonair`
 
+ ### Home
+ ![Debonair-Home](screenshots/debonair-home.jpg)
+
+ ### Loop
+ ![Debonair-Loop](screenshots/debonair-loop.jpg)
+
+ ## Tag
+ ![Debonair-Tag](screenshots/debonair-tag.jpg)
+
+ ### Post
+ ![Debonair-Post](screenshots/debonair-post.jpg)
+
 
  Details
  ---
