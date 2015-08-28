@@ -35,3 +35,7 @@ if you see a bug or have a great idea on how to improve Debonair, Dont hesitate 
  | [Socicon](https://www.google.com/fonts#UsePlace:use/Collection:Lato)  | Social icons |
  | [Lato](https://www.google.com/fonts#UsePlace:use/Collection:Lato)  | For important things like the nav, author description & footer |
  | [Cardo](https://www.google.com/fonts#UsePlace:use/Collection:Lato)  | The big headers for the posts |
+
+ | Plugins | Whats its use |
+ | ------------- | ------------- |
+ | [fittext.js](https://github.com/davatron5000/FitText.js) | Sizing the post titles |
